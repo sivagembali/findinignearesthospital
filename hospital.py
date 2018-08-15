@@ -85,9 +85,11 @@ def findnearesthospital():
             return "District name not found"
         #print(hospital_list[i])
     except Exception as inst:
-        print("Exception: ",type(inst),inst)
+        pass
+        #print("Exception: ",type(inst),inst)
     else:
-        print("Thank you")
+        pass
+        #print("Thank you")
     finally:
         file_access.close()
     #print(health_center)
